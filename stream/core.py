@@ -1906,7 +1906,7 @@ def plot_visualization_2D(adata,adata_new=None,show_all_colors=False,method='uma
         Choose from {{'label','branch'}}
         Specify how to color cells.
         'label': the cell labels (stored in adata.obs['label'])
-        'branch': the bracnh id identifed by STREAM
+        'branch': the branch id identifed by STREAM
     use_precomputed: `bool`, optional (default: True)
         If True, the visualization coordinates from previous computing will be used
     save_fig: `bool`, optional (default: False)
